@@ -74,3 +74,5 @@ while count <= 9:
     count += 1
     lis.append(number)
 print ("The numbers you entered were: ")
+# print each number on a seperate line
+print ("\n".join(lis))
